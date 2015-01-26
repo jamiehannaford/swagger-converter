@@ -1,0 +1,19 @@
+{
+    "name": "php-opencloud/swagger-converter",
+    "require": {
+        "symfony/yaml": "~2.6"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "SwaggerConverter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "spec\\SwaggerConverter\\": "spec/"
+        }
+    }
+}
