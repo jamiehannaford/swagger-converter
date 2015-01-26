@@ -1,0 +1,6 @@
+suites:
+  default_suite:
+    namespace: SwaggerConverter
+    psr4_prefix: SwaggerConverter
+
+formatter.name: pretty
